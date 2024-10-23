@@ -1,0 +1,1252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Inter';
+}
+
+header {
+    background-image: linear-gradient(rgb(32, 32, 32), black);
+}
+
+header .menu {
+    display: none;
+}
+
+/* nav styles */
+nav {
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+ul {
+    width: 40%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #303030;
+    border-radius: 40px;
+    padding: 1px 3px;
+}
+
+.nav-title {
+    color: rgba(230, 83, 60, 1);
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 19%;
+    height: 90%;
+    list-style: none;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.124rem;
+}
+
+#list-home {
+    background-color: rgba(230, 83, 60, 1);
+}
+<<<<<<< HEAD
+=======
+
+/* shared style */
+.btn-primary {
+    width: 224px;
+    height: 54px;
+    color: white;
+    background-color: rgba(230, 83, 60, 1);
+    font-weight: 600;
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    width: 224px;
+    height: 54px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+
+.text-secondary {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/* banner styles */
+.banner-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.banner-container .banner-content {
+    width: 50%;
+}
+
+.banner-container .banner-content .banner-title {
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 100%;
+}
+
+span {
+    height: auto;
+    font-family: 'Miama';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5rem;
+}
+
+.banner-container .banner-content .banner-description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.banner-btn {
+    margin-right: 11px;
+}
+
+.banner-container .image-container {
+    width: 60%;
+    display: flex;
+}
+
+.banner-container .btn-container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-container .image-container>img {
+    width: 349px;
+    transform: translateX(75%);
+}
+
+.banner-container .image-container .glass-1 {
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.07);
+    margin: 0;
+    transform: translate(257%, 126%);
+    position: absolute;
+}
+
+.banner-container .image-container .glass-2 {
+    width: 206px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    margin: 0;
+    transform: translate(73%, 429%);
+    position: absolute;
+}
+
+.banner-container .image-container .glass-2 .glass-2-content {
+    width: 60%;
+}
+
+.banner-container .image-container .glass-2 .circle {
+    width: 40px;
+}
+
+
+.banner-container .image-container .glass-1 .glass-section-title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 17px 53px 0 24px;
+
+}
+
+.banner-container .image-container .glass-1 .glass-section-description {
+    font-size: 0.8125rem;
+    font-weight: 400;
+    margin: 5px 23px 16px 24px;
+}
+
+.banner-container .image-container .glass-2 h4 {
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.banner-container .banner-container .glass-2 p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* habit section */
+
+.habit-section>h3 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.habit-section>p {
+    width: 64%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 14px auto 58px auto;
+    text-align: center;
+}
+
+.habit-section .card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container .card {
+    width: 22%;
+}
+
+.card img {
+    border: 4px solid rgb(26, 26, 26);
+    border-radius: 50%;
+}
+
+.card h4 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 30px 0 6px 0;
+}
+
+.card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+/* run */
+.run-section {
+    padding: 30px 32px 30px 32px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+
+.run-section img {
+    width: 34.5%;
+    border-radius: 18px;
+}
+
+.run-content {
+    width: 42%;
+    text-align: left;
+}
+
+.run-content h3 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.run-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 14px 0 34px 0;
+}
+
+/* training section */
+.training-section h3 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.training-section>p {
+    width: 60%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 14px 0 58px 0;
+}
+
+.training-image-container p {
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: absolute;
+    z-index: 4;
+}
+
+.training-image-container .row-1 .column-2 {
+    position: relative;
+}
+
+.training-image-container .row-1 .column-1 p {
+    width: 12%;
+    transform: translate(1%, 1042%);
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.training-image-container .row-1 .column-1 {
+    background-image: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url('../images/exercise1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.training-image-container .row-1 .column-2 {
+    background: linear-gradient(rgba(255, 0, 0, .3), rgba(255, 0, 0, .3)), url('../images/exercise2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242.5px;
+}
+
+.training-image-container .row-1 .column-2 p {
+    width: 39%;
+    transform: translate(22%, 140%);
+}
+
+.training-image-container .row-1 .column-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-image-container .row-1 .column-3 p {
+    width: 12%;
+    transform: translate(12%, 1098%);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.training-image-container .row-1 {
+    display: grid;
+    grid-template-columns: 1.2fr 1.8fr 1.2fr;
+}
+
+.training-image-container .row-2 {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr;
+}
+
+.training-image-container .row-2 .column-1 {
+    height: 216.69px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-image-container .row-2 .column-1 p {
+    width: 12%;
+    transform: translate(124%, 124%);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.training-image-container .row-2 .column-2 {
+    background: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url('../images/exercise5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-image-container .row-2 .column-2 p {
+    width: 14%;
+    transform: translate(27%, 838%);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.training-image-container .row-2 .column-3 {
+    background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url('../images/exercise6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-image-container .row-2 .column-3 p {
+    width: 14%;
+    transform: translate(20%, 873%);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/* bmi section */
+.bmi-section {
+    width: 100%;
+}
+
+.bmi-section>h1 {
+    width: 44%;
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.bmi-section p {
+    width: 44%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 14px auto 88px auto;
+    text-align: left;
+}
+
+.bmi-container {
+    width: 100%;
+    height: 487px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bmi-chart h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 52px;
+}
+
+th {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+th,
+td {
+    padding: 15px 15px 15px 18px;
+}
+
+.bmi-chart table,
+th,
+td {
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.calculate-bmi {
+    width: 40%;
+    transform: translateY(6%);
+    text-align: left;
+}
+
+.calculate-bmi h3 {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.calculate-bmi p {
+    width: 100%;
+    margin: 14px 0 34px 0;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 13px 40px 13px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+select {
+    padding: 13px 50px 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+}
+
+select::placeholder,
+input::placeholder,
+option,
+select {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.calculate-bmi button {
+    margin-top: 34px;
+}
+
+.calculate-bmi form {
+    display: grid;
+    grid-template-columns: minmax(0 , 1fr) minmax(0, 1fr);
+    gap: 12px;
+}
+
+.calculate-bmi form .height, .age {
+    grid-column: 1 / span 1;
+}
+
+.calculate-bmi form .gender, .weight {
+    grid-column: 2 / span 1;
+}
+
+.calculate-bmi form .factor {
+    grid-column: span 2;
+}
+
+/* team section */
+.team-section h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.team-section>p {
+    width: 60%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 14px auto 58px auto;
+}
+
+.team-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+.team-container div h3,
+.team-container div p {
+    text-align: left;
+}
+
+.team-container div h3 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 900;
+    transform: translateY(817%);
+}
+
+.team-container div p {
+    font-size: 1rem;
+    font-weight: 400;
+    transform: translateY(1179%);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.team-container div {
+    height: 272px;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.trainer-1 {
+    background-image: url('../images/trainer1.png');
+}
+
+.trainer-2 {
+    background-image: url('../images/trainer2.png');
+}
+
+.trainer-3 {
+    background-image: url('../images/trainer3.png');
+}
+
+.trainer-4 {
+    background-image: url('../images/trainer4.png');
+}
+
+.trainer-5 {
+    background-image: url('../images/trainer5.png');
+}
+
+.trainer-6 {
+    background-image: url('../images/trainer6.png');
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+
+.footer-section .column-1 {
+    width: 42%;
+}
+
+.footer-section .column-1 h1 {
+    color: rgba(230, 83, 60, 1);
+    font-size: 4.375rem;
+    font-style: italic;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: left;
+}
+
+.footer-section .column-1 p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    text-align: left;
+}
+
+.footer-section h4 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-section .column-2 p,
+.footer-section .column-3 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: left;
+}
+
+hr {
+    width: 70%;
+    margin: 79px auto 36px auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-paragraph {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* small device responsive */
+@media screen and (max-width: 576px) {
+    nav {
+        padding: 20px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    header .menu {
+        display: block;
+        width: 18px;
+        cursor: pointer;
+    }
+
+    .banner-container {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-container .banner-content {
+        width: 90%;
+    }
+
+    .banner-container .banner-content .banner-title,
+    span {
+        font-size: 2.25rem;
+    }
+
+    .banner-container .banner-content .banner-description {
+        width: 99%;
+    }
+
+    
+.banner-container .btn-container {
+    width: 100%;
+}
+
+    .banner-container button {
+        width: 169px;
+        font-size: 0.7rem;
+        padding: 16px 20px 16px 20px;
+    }
+
+
+    .banner-container .image-container {
+        width: 90%;
+        margin-top: 48px;
+    }
+
+    .banner-container .image-container img {
+        width: 100%;
+        transform: translateX(0%);
+    }
+
+    .banner-container .image-container .glass-1 {
+        width: 33%;
+        height: 74px;
+        transform: translate(106%, 46%);
+        padding: 13px 16px 0 16px;
+    }
+
+    .banner-container .image-container .glass-1 .glass-section-title {
+        font-size: 1.875rem;
+        margin: 0 0 5px 0;
+    }
+
+    .banner-container .image-container .glass-1 .glass-section-description {
+        font-size: 0.625rem;
+        margin: 0;
+    }
+
+    .banner-container .image-container .glass-2 {
+        width: 44%;
+        height: 72.58px;
+        transform: translate(5%, 295%);
+    }
+
+    .banner-container .image-container .glass-2 .circle {
+        width: 30px;
+    }
+
+    .banner-container .image-container .glass-2-content {
+        width: 44%;
+    }
+
+    .banner-container .image-container .glass-2-content .glass-section-title {
+        font-size: 1.13375rem;
+    }
+
+    .banner-container .image-container .glass-2-content .glass-section-description {
+        font-size: 0.75rem;
+    }
+
+    .habit-section {
+        margin-top: 10px;
+    }
+
+    .habit-section>h3 {
+        font-size: 1.41rem;
+    }
+
+    .habit-section>p {
+        width: 100%;
+        font-size: 0.875rem;
+    }
+
+    .habit-section .card-container {
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+    }
+
+    .habit-section .card-container .card {
+        width: 90%;
+    }
+
+    .run-section {
+        width: calc(80% - 32px);
+        flex-direction: column;
+        row-gap: 31px;
+    }
+
+    .run-content {
+        width: 100%;
+    }
+
+    .run-section h3 {
+        width: 89%;
+        font-size: 2rem;
+    }
+
+    .run-content p {
+        width: 100%;
+    }
+
+    .run-content button {
+        width: 100%;
+    }
+
+    .run-section img {
+        width: 100%;
+    }
+
+    .training-section {
+        width: 90%;
+        margin-top: 66px;
+    }
+
+    .training-section h3 {
+        font-size: 2rem;
+    }
+
+    .training-section>p {
+        width: 100%;
+    }
+
+    .training-image-container .row-1 .column-3,
+    .training-image-container .row-2 .column-3 {
+        display: none;
+    }
+
+    .training-image-container .row-1 {
+        grid-template-columns: 1.6fr 1.4fr;
+    }
+
+    .training-image-container .row-2 {
+        grid-template-columns: 1.2fr 1.4fr;
+    }
+
+    .training-image-container .row-1 .column-1 p {
+        color: white;
+    }
+
+    .training-image-container .row-1 .column-1 p,
+    .training-image-container .row-1 .column-2 p,
+    .training-image-container .row-2 .column-1 p,
+    .training-image-container .row-2 .column-2 p {
+        width: 75%;
+        font-size: 0.5rem;
+    }
+
+    .training-image-container .row-1 .column-2 {
+        height: 139px;
+        background-size: cover;
+        background-position: top right;
+    }
+
+    .training-image-container .row-2 .column-1 {
+        height: 139px;
+    }
+
+    .training-image-container .row-1 .column-1 p {
+        width: 40%;
+        transform: translate(6%, 1042%);
+    }
+
+    .training-image-container .row-1 .column-2 p {
+        transform: translate(27%, 63%);
+    }
+
+    .training-image-container .row-2 .column-1 p {
+        width: 35%;
+        transform: translate(11%, 1213%);
+    }
+
+    .training-image-container .row-2 .column-2 p {
+        width: 40%;    
+        transform: translate(13%, 1197%);
+    }
+
+    .bmi-container {
+        height: auto;
+    }
+
+    .bmi-section {
+        margin-top: 22px;
+    }
+
+    .bmi-section>h1 {
+        width: 90%;
+        font-size: 2rem;
+    }
+
+    .bmi-section>p {
+        width: 90%;
+        margin: 14px auto 32px auto;
+    }
+
+    .bmi-container {
+        flex-direction: column;
+    }
+
+    .bmi-chart h3 {
+        font-size: 1rem;
+        margin: 34px 0 0 0;
+    }
+
+    table {
+        margin-top: 23px;
+    }
+
+    .calculate-bmi {
+        width: 90%;
+        margin: 42px 0;
+    }
+
+    .calculate-bmi h3 {
+        font-size: 1rem;
+    }
+
+    .calculate-bmi p {
+        margin: 14px 0 34px 0;
+    }
+
+    form .row-2 .column-2 {
+        width: 170%;
+    }
+
+    .team-section {
+        width: 90%;
+        margin-top: 66px;
+    }
+
+    .team-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .team-container .trainer-1, .team-container .trainer-4 {
+        display: none;
+    }
+
+    .team-section>p {
+        width: 100%;
+        margin: 14px 0 37px 0;
+    }
+
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+
+    .team-container div h3 {
+        font-size: 1.2rem;
+        transform: translateY(967%);
+    }
+
+    .supplement-section {
+        width: calc(90% - 40px);
+        flex-direction: column;
+        margin-top: 66px;
+    }
+
+    .supplement-content {
+        width: 100%;
+    }
+
+    .supplement-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .buy-supplement {
+        width: 100%;
+        margin-top: 42px;
+        text-align: center;
+    }
+
+    .buy-supplement img {
+        width: 100%;
+    }
+
+    .buy-supplement button {
+        width: 143px;
+        font-size: .9rem;
+    }
+
+    .footer-section {
+        width: 90%;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .footer-section .column-1 {
+        width: 100%;
+    }
+
+    .footer-section h4 {
+        text-align: left;
+    }
+
+    hr {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1024px) {
+    nav {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    ul {
+        width: 55%;
+    }
+
+    .nav-list {
+        width: 23%;
+        font-size: 1rem;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 100px;
+    }
+
+    .banner-container .banner-content {
+        width: 81%;
+    }
+
+    .banner-container .banner-content .banner-title, span {
+        font-size: 4.875rem;
+    }
+
+    .banner-container .btn-container {
+        width: 90%;
+    }
+
+    .banner-container .image-container>img {
+        transform: translateX(30%);
+    }
+
+    .banner-container .image-container .glass-1 {
+        transform: translate(151%, 53%);
+    }
+
+    .banner-container .image-container .glass-2 {
+        transform: translate(26%, 364%);
+    }
+
+    .habit-section .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .card-container .card {
+        width: 100%;
+    }
+
+    .card h4 {
+        font-size: 1.125rem;
+    }
+
+    .run-section {
+        width: 85%;
+    }
+
+    .run-content h3 {
+        font-size: 2.25rem;
+    }
+
+    .run-section img {
+        width: 44%;
+    }
+
+    .training-section {
+        width: 85%;
+    }
+    
+    .training-section>p {
+        width: 100%;
+    }
+
+    .training-image-container .row-2 {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1.5fr;
+    }
+
+    .training-image-container .row-1 .column-2 {
+        background-position: top right;
+    }
+
+    .training-image-container .row-1 .column-1 p {
+        width: 22%;
+        transform: translate(4%, 1042%);
+    }
+
+    .training-image-container .row-1 .column-2 p {
+        width: 70%;
+    }
+
+    .training-image-container .row-1 .column-3 p {
+        width: 18%;
+        transform: translate(12%, 1179%);
+    }
+
+    .training-image-container .row-2 .column-1 p {
+        width: 23%;
+        transform: translate(14%, 961%);
+    }
+
+    .training-image-container .row-2 .column-2 p {
+        width: 24%;
+        transform: translate(11%, 1004%);
+    }
+
+    .training-image-container .row-2 .column-3 p {
+        width: 19%;
+        transform: translate(14%, 460%);
+    }
+
+    .bmi-section>h1, .bmi-section p {
+        width: 85%;
+    }
+
+    .bmi-container {
+        width: calc(100% - 60px);
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 30px;
+    }
+
+    .calculate-bmi {
+        width: 100%;
+        margin: 63px 0 38px 0;
+    }
+
+    .team-section {
+        width: 95%;
+    }
+
+    .team-section>p {
+        width: 65%;
+    }
+
+    .team-container div h3 {
+        width: 100%;
+        font-size: 1rem;
+        transform: translateY(1160%);
+    }
+
+    .trainer-4 {
+        background-position: top center;
+    }
+
+    .supplement-section {
+        width: 90%;
+    }
+
+    .supplement-content {
+        width: 70%;
+    }
+
+    .buy-supplement button {
+        width: 55.154%;
+    }
+
+    .footer-section {
+        width: 95%;
+    }
+
+    .footer-section .column-1 {
+        grid-area: column-1;
+    }
+
+    .footer-section .column-2 {
+        grid-area: column-2;
+    }
+
+    .footer-section .column-3 {
+        grid-area: column-3;
+    }
+
+    .footer-section {
+        display: grid;
+        grid-template-areas: 
+        "column-1 column-1"
+        "column-2 column-3";
+        row-gap: 102px;
+        column-gap: 100px;
+    }
+
+    .footer-section .column-1 {
+        width: 100%;
+    }
+
+    .footer-section h4  {
+        width: 100%;
+        text-align: left;
+        margin-top: 39px;
+    }
+
+    hr {
+        width: 95%;
+        margin: 71px 0 41px 0;
+    }
+
+    .footer-paragraph {
+        margin-bottom: 40px;
+    }
+}
+>>>>>>> 5abd04f (final push)
